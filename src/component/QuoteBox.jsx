@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+// llamamos a los 3 componentes que necesitamos
 const QuoteBox = ({randomQuote ,randomColors, getRandomAll} ) => {
 
   console.log(randomQuote);
@@ -12,7 +12,7 @@ const objestBgStyle={
   backgroundColor : randomColors
 }
 
-
+//creamos la pagina donde estara los compoentes necesarios para la presentacion
   return (
 
     <div className='QuoteBox' style={objectStyle}>
